@@ -314,7 +314,6 @@ input, select, textarea {
 		}
 
 		.wrap_header {
-width: 30%;
 display: flex;
 justify-content: center;
 padding: 24px;
@@ -323,6 +322,7 @@ padding: 24px;
 		.logo {
 			width: 48%;
 		}
+
 
 		@media screen and (max-width: 736px) {
 
@@ -633,7 +633,7 @@ padding: 24px;
 
 		}
 
-/* Header */
+/* Footer */
 
 	#footer {
 		width: 100%;
@@ -652,8 +652,7 @@ padding: 24px;
 
 		#footer > section:first-child {
 			text-align: left;
-			max-width: 36em;
-			padding-right: 2em;
+			max-width: 50%;
 		}
 
 		#footer > section:last-child {
